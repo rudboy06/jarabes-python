@@ -1,5 +1,4 @@
 from flask import Flask, jsonify, request
-from flask import Flask
 from flask_cors import CORS
 from db import get_connection
 from models import insertar_jarabe,obtener_jarabes, actualizar_jarabe,eliminar_jarabe
